@@ -1,8 +1,8 @@
-package Animals;
+package th1.animals;
 
-import edible.IEdible;
+import th1.edible.IEdible;
 
-public class Chicken extends animal implements IEdible {
+public class Chicken extends th1.animals.Animals implements IEdible {
     @Override
     public String makeSound() {
         return "Chicken: cluck-cluck!";
